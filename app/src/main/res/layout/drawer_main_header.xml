@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nav_drawer_header"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#303F9F"
+    android:gravity="top"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_table_number"
+        android:paddingBottom="10dp"
+        android:text="TABLE NUMBER"
+        android:textColor="@color/icons"
+        android:background="@color/primary"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="20dp"
+        android:gravity="center"
+        android:onClick="onTableButtonClicked"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:layout_width="60sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_table_number"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:visibility="invisible"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+
+    <ImageView
+        android:id="@+id/iv_menu_user"
+        android:layout_width="220sp"
+        android:layout_height="320sp"
+        android:paddingBottom="15dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="15dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/thank_you" />
+
+    <EditText
+        android:layout_width="160sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_ipname"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:visibility="invisible"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_ipname"
+        android:paddingBottom="10dp"
+        android:text="CHANGE IP"
+        android:textColor="@color/icons"
+        android:background="@color/primary"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:onClick="onIpButtonClicked"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
